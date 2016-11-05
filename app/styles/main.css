@@ -18,6 +18,13 @@ body {
   margin: 0 auto;
 }
 
+/* RCC - for the Twitter feed on the left */
+.left-content {
+  float: left;
+  max-width: 300px;
+  margin: 0;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -75,7 +82,7 @@ body {
 
 /*!
  * Clean Blog v1.0.0 (http://startbootstrap.com)
- * Copyright 2014 CS GSC
+ * Copyright 2014 Start Bootstrap
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
 
@@ -236,7 +243,8 @@ hr.small {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0;
+    padding-top: 100px;
+    padding-bottom: 225px;
   }
 }
 .intro-header .site-heading,

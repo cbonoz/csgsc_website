@@ -49,10 +49,20 @@ angular
         controller: 'TeatimeCtrl',
         controllerAs: 'teatime'
       })
+      .when('/corporatesupporterfaq', {
+        templateUrl: 'views/corporatesupporterfaq.html',
+        controller: 'CorporateSupporterFAQCtrl',
+        controllerAs: 'corporatesupporterfaq'
+      })
       .when('/contact', {
         templateUrl: 'views/contact.html',
         controller: 'ContactCtrl',
         controllerAs: 'contact'
+      })
+      .when('/members', {
+        templateUrl: 'views/members.html',
+        controller: 'MembersCtrl',
+        controllerAs: 'members'
       })
       .otherwise({
         redirectTo: '/'
