@@ -1,9 +1,0 @@
-How to add a page:
-
-1. Add a html file to views/.
-
-2. Add corresponding tab to index.html.
-
-3. Add corresponding "app" to scripts/app.js.
-
-4. Optionally, add corresponding controller to scripts/controllers/.
